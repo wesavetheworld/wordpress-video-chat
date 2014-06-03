@@ -2,17 +2,17 @@
 
 /*
 
-Plugin Name: TinyChat for BuddyPress/WordPress
+* Plugin Name: TinyChat for BuddyPress/WordPress
 
-Plugin URI: http://www.musclesforkaleb.com/downloads
+* Plugin URI: http://www.musclesforkaleb.com/downloads
 
-Description: Add tinychat to your WordPress/BuddyPress blog
+* Description: Add tinychat to your WordPress/BuddyPress blog
 
-Version: 1.0.1
+* Version: 1.0.1
 
-Author: Ruddernation Designs
+* Author: Ruddernation Designs
 
-Author URI: https://www.ruddernation.com
+* Author URI: https://www.ruddernation.com
 
 */
 
