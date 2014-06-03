@@ -2,7 +2,7 @@
 
 /*
 
-Plugin Name: Ruddernation Designs
+Plugin Name: TinyChat for BuddyPress/WordPress
 
 Plugin URI: http://www.musclesforkaleb.com/downloads
 
