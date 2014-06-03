@@ -12,7 +12,7 @@ Version: 1.0.1
 
 Author: Ruddernation Designs
 
-Author URI: tinychat
+Author URI: https://www.ruddernation.com
 
 */
 
