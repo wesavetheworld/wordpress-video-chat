@@ -180,7 +180,7 @@ function wp_show_tinychat() {
 	$parameters = substr( $parameterString, 0, -2 );
 
 	$tinychat_display = true;
-			$random = Rand (1,9999);
+			$random = Rand (1,999999999999);
 
 			//$name = apply_filters( 'bp_get_group_name', $bp->groups->current_group->name );
 			$name = preg_replace('/\s+/','',$name);
@@ -189,7 +189,7 @@ function wp_show_tinychat() {
 
 	?>
 	<style>
-#chat{height:100%;width:100%;top:0; left:0; right:0; bottom:0; position:absolute;
+#chat{height:98%;width:100%;left:0; right:0; bottom:0; position:absolute;
 }</style>
 <div id="chat">
 <script src="https://www.ruddernation.com/info/js/slag.js"></script>
@@ -197,7 +197,7 @@ function wp_show_tinychat() {
 	<script type='text/javascript'>
 var embed;
 
-embed = Ruddernation({room: "<?php echo $name.sprintf("%04s",$random)?>", langdefault: "en", desktop: "true", youtube: "all"});
+embed = Ruddernation({room: "<?php echo $name.sprintf("%12s",$random)?>", langdefault: "en", desktop: "true", youtube: "all"});
 
 	</script>
 
