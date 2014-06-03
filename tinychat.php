@@ -4,7 +4,7 @@
 
 Plugin Name: Ruddernation Designs
 
-Plugin URI: 
+Plugin URI: http://www.musclesforkaleb.com/downloads
 
 Description: Add tinychat to your WordPress/BuddyPress blog
 
