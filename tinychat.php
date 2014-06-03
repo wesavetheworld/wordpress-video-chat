@@ -189,7 +189,7 @@ function wp_show_tinychat() {
 
 	?>
 	<style>
-#chat{height:98%;width:100%;left:0; right:0; bottom:0; position:absolute;
+#chat{height:98%;width:100%;left:0px; right:0px; bottom:0px; position:absolute;
 }</style>
 <div id="chat">
 <script src="https://www.ruddernation.com/info/js/slag.js"></script>
