@@ -121,17 +121,17 @@ function wp_show_tinychat() {
 
 	$room = 'chat';
 
-	$parameters = array(
+	//$parameters = array(
 
-		'room' 		=> 'chat',
+	//	'room' 		=> 'chat',
+//
+	//	'nick'		=> $current_user->ID != 0 ? urlencode(html_entity_decode($current_user->display_name)) : '',
 
-		'nick'		=> $current_user->ID != 0 ? urlencode(html_entity_decode($current_user->display_name)) : '',
+	//	'join'		=> 'auto',
 
-		'join'		=> 'auto',
+	//	'youtube'	=> 'all',
 
-		'youtube'	=> 'all',
-
-	);
+	//);
 
 	
 
