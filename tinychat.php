@@ -8,7 +8,7 @@
 
 * Description: Add tinychat to your WordPress/BuddyPress blog
 
-* Version: 1.0.1
+* Version: 1.0.2
 
 * Author: Ruddernation Designs
 
