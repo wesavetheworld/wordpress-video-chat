@@ -8,7 +8,7 @@
 
 * Description: Add tinychat to your WordPress/BuddyPress blog
 
-* Version: 1.0.2
+* Version: 1.0.3
 
 * Author: Ruddernation Designs
 
@@ -18,17 +18,10 @@
 
 
 
-define('COMPARE_VERSION', '1.0.0');
-
-
-
-
-
-
+define('COMPARE_VERSION', '1.0.3');
 
 
 register_activation_hook(__FILE__, 'tinychat_install');
-
 
 
 function tinychat_install() {
