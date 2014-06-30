@@ -183,7 +183,7 @@ function wp_show_tinychat() {
 			$random = Rand (1,999999999999);
 
 			//$name = apply_filters( 'bp_get_group_name', $bp->groups->current_group->name );
-			$name = preg_replace('/\s+/','',$name);
+			$name=preg_replace('/\s+/','',$name);
 			$name=htmlspecialchars($name);
 			$name=strtolower($name);
 
@@ -197,11 +197,11 @@ function wp_show_tinychat() {
 	<script type='text/javascript'>
 var embed;
 
-embed = Ruddernation({room: "<?php echo $name.sprintf("%12s",$random)?>", langdefault: "en", desktop: "true", youtube: "all"});
+embed = tinychat ({room: "<?php echo $name.sprintf("%12s",$random)?>", langdefault: "en", desktop: "true", youtube: "all"});
 
 	</script>
 
-	<div id='ruddernation'></div></div>
+	<div id='client'></div></div>
 
 	<?php
 
