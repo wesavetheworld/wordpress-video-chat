@@ -7,6 +7,8 @@ This also has YouTube/SoundCloud for all chatters and now has smileys enabled us
 
 == Installation ==
 
+This will automatically create the page and install the short code with link *domain name/chatroom*, If it does not then please read the rest below.
+
 Simply use shortcode [tinychat_page] in a page, you may need to remove footer as some will show in front of the chat screen.
 This also uses my modified Tinychat embed file, This get's updated externally so you'll never need to update it.
 If you want to use Tinychats original then you'll have to change the embed file url to: <script src="http://tinychat.com/embed/chat.js"></script>
