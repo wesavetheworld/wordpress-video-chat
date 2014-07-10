@@ -1,33 +1,26 @@
 <?php
-
 /*
-
-* Plugin Name: TinyChat for BuddyPress/WordPress
-
-* Plugin URI: http://www.musclesforkaleb.com/downloads
-
-* Description: Add tinychat to your WordPress/BuddyPress blog
-
-* Version: 1.0.5
-
+* Plugin Name: wpbp-video-chat
+* Plugin URI: https://www.ruddernation.com/downloads/wordpress-plugins/wpbp-video-chat
 * Author: Ruddernation Designs
-
-* Author URI: https://www.ruddernation.com
-
+* Author URI: http://profiles.wordpress.org/ruddernation
+* Description: TinyChat full screen video chat for BuddyPress/WordPress,
+This also has YouTube/SoundCloud for all chatters and now has smileys enabled using my embed file.
+* Requires at least: WordPress 3.6.0, BuddyPress 1.8.1
+* Tested up to: WordPress 3.9.1 / BuddyPress 2.0.1
+* Version: 1.0.5
+* License: GPL
+* License URI: http://www.gnu.org/licenses/gpl-2.0.html
+* Date: 10th July 2014
 */
-
 
 define('COMPARE_VERSION', '1.0.3');
 
-
 register_activation_hook(__FILE__, 'tinychat_install');
-
 
 function tinychat_install() {
 
 	global $wpdb, $wp_version;
-
-	//We add an page for displaying tinychat
 
 	$post_date = date("Y-m-d H:i:s");
 
