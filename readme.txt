@@ -1,4 +1,12 @@
-=== TinyChat ===
+=== wpbp-video-chat ===
+
+Contributors: http://profiles.wordpress.org/ruddernation
+Tags: video chat, Tinychat, chat, wordpress chat, buddypress chat, wordpress video chat, buddypress video chat
+Requires at least: WordPress 3.6.0, BuddyPress 1.8.1
+Tested up to: WordPress 3.9.1 / BuddyPress 2.0.1
+Stable tag: 1.0.5
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
@@ -13,6 +21,15 @@ Simply use shortcode [tinychat_page] in a page, you may need to remove footer as
 This also uses my modified Tinychat embed file, This get's updated externally so you'll never need to update it.
 If you want to use Tinychats original then you'll have to change the embed file url to: <script src="http://tinychat.com/embed/chat.js"></script>
 
+== Screenshots ==
+
+https://www.ruddernation.com/downloads/wordpress-plugins/wpbp-video-chat/screenshot-1.jpg
+https://www.ruddernation.com/downloads/wordpress-plugins/wpbp-video-chat/screenshot-2.jpg
+https://www.ruddernation.com/downloads/wordpress-plugins/wpbp-video-chat/screenshot-3.jpg
+https://www.ruddernation.com/downloads/wordpress-plugins/wpbp-video-chat/screenshot-4.jpg
+https://www.ruddernation.com/downloads/wordpress-plugins/wpbp-video-chat/screenshot-5.jpg
+https://www.ruddernation.com/downloads/wordpress-plugins/wpbp-video-chat/screenshot-6.jpg
+https://www.ruddernation.com/downloads/wordpress-plugins/wpbp-video-chat/screenshot-7.jpg
 == Notes ==
 
 This is full screen video chat that is used on TinyChat, This will use your domain name as the chatroom name,
