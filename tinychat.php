@@ -14,7 +14,7 @@ This also has YouTube/SoundCloud for all chatters and now has smileys enabled us
 * Date: 10th July 2014
 */
 
-define('COMPARE_VERSION', '1.0.3');
+define('COMPARE_VERSION', '1.5');
 
 register_activation_hook(__FILE__, 'tinychat_install');
 
