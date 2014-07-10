@@ -4,7 +4,7 @@ Contributors: http://profiles.wordpress.org/ruddernation
 Tags: video chat, Tinychat, chat, wordpress chat, buddypress chat, wordpress video chat, buddypress video chat
 Requires at least: WordPress 3.6.0, BuddyPress 1.8.1
 Tested up to: WordPress 3.9.1 / BuddyPress 2.0.1
-Stable tag: 1.0.5
+Stable tag: 1.5
 License: GPL
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
