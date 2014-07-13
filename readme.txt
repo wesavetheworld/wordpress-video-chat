@@ -1,11 +1,11 @@
-=== wpbp-video-chat ===
+=== wordpress-video-chat ===
 
-Contributors: http://profiles.wordpress.org/ruddernation
+Contributors: ruddernation
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FFAC7FBEBH6JE
 Tags: video chat, Tinychat, chat, wordpress chat, buddypress chat, wordpress video chat, buddypress video chat
-Requires at least: WordPress 3.6.0, BuddyPress 1.8.1
-Tested up to: WordPress 3.9.1 / BuddyPress 2.0.1
-Stable tag: 1.5
+Requires at least: 3.6.0
+Tested up to: 4.0
+Stable tag: 1.0.7
 License: GPL
 License URI: http://www.gnu.org/licenses/gpl.html
 
@@ -50,31 +50,40 @@ This way it'll never conflict with other rooms on TinyChat.
 
 == Upgrade Notice ==
 
-= 1.1 =
+= 1.0.1 =
 * Updated it to auto create the page and insert the short code for you.
 
-= 1.5 =
+= 1.0.5 =
 * Now updated to have the domain name as the room name, It'll remove whitespace and special characters.
+
+= 1.0.6 = 
+* Removed some unnecessary code, it should also load quicker.
 
 == Changelog ==
 
-= 1.0 =
+= 1.0.1 =
 * First live version.
 
-= 1.1 =
+= 1.0.1 =
 * Added random number to stop the use of same rooms on TinyChat.
 
-= 1.2 =
+= 1.0.2 =
 * Update of the Div files to the original TinyChat ones.
 
-= 1.3 =
+= 1.0.3 =
 * Update of core components.
 
-= 1.4 =
+= 1.0.4 =
 * Removal of White space.
 
-= 1.5 =
+= 1.0.5 =
 * Removed the random number from rooms, Now done it so it uses the domain name for room name, Also added my social links.
+
+= 1.0.6 =
+* Update of core components.
+
+= 1.0.7 = 
+* Renamed to wordpress-video-chat for easier seaching of the plugin.
 
 == Social Sites ==
 * Google+ - https://plus.google.com/115608989177049799241/about
