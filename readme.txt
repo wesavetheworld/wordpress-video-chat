@@ -5,7 +5,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: video chat, Tinychat, chat, wordpress chat, buddypress chat, wordpress video chat, buddypress video chat
 Requires at least: 3.6.0
 Tested up to: 4.0
-Stable tag: 1.0.9
+Stable tag: 1.1.0
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -95,10 +95,13 @@ Also there seemed to be a conflict with another plugin.
 = 1.0.9 =
 * Had to do a quick fix due to chat loading on all pages!
 
+= 1.1.0 =
+* Few updates to core.
+
 == Social Sites ==
-* Google+ - https://plus.google.com/115608989177049799241/about
 * Twitter - https://twitter.com/RUDD3RN4T10N
 * Facebook - https://www.facebook.com/ruddernationdotcom
+* Google+ - https://plus.google.com/115608989177049799241/about
 * Pinterest - https://www.pinterest.com/ruddernation/
 * Github - https://github.com/ruddernation
 * Instagram - http://instagram.com/ruddernation
