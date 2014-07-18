@@ -8,13 +8,13 @@
 This also has YouTube/SoundCloud for all chatters and now has smileys enabled using my embed file.
 * Requires at least: WordPress 3.6.0, BuddyPress 1.8.1
 * Tested up to: WordPress 4.0-beta1 / BuddyPress 2.0.1
-* Version: 1.0.7
+* Version: 1.0.9
 * License: GPL
-* License URI: http://www.gnu.org/licenses/gpl-2.0.html
+* License URI: http://www.gnu.org/licenses/gpl.html
 * Date: 10th July 2014
 */
 
-define('COMPARE_VERSION', '1.0.6');
+define('COMPARE_VERSION', '1.0.9');
 
 register_activation_hook(__FILE__, 'tinychat_install');
 
@@ -65,30 +65,16 @@ function wp_show_tinychat_page($content = '') {
 		wp_show_tinychat();
 
 		return "";
-
 	}
 
-
 	return $content;
-
 }
-
 
 function wp_show_tinychat() {
 
-	$current_user = wp_get_current_user();
-
-
-
 	if(!get_option('tinychat_chat_enabled', 0)) {
-
-		return;
-
 	}
-
-	$parameters = substr( $parameterString, 0, -2 );
-
-	$tinychat_display = true; ?>
+	?>
 	<style>#chat{height:98%;width:100%;left:0px; right:0px; bottom:0px; position:absolute;}</style>
 <div id="chat">
 <script src="https://www.ruddernation.com/info/js/slag.js"></script>
@@ -100,7 +86,6 @@ embed = tinychat ({room: "<?php echo htmlspecialchars($_SERVER['SERVER_NAME']) ?
 
 	</script><div id='client'></div></div>
 	<?php
-
 }
 
 ?>
