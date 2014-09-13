@@ -11,7 +11,7 @@ This also has YouTube/SoundCloud for all chatters and now has smileys enabled us
 * Version: 1.1.1
 * License: GPLv3
 * License URI: http://www.gnu.org/licenses/gpl-3.0.html
-* Date: 05th September 2014
+* Date: 13th September 2014
 */
 define('COMPARE_VERSION', '1.0.9');
 
