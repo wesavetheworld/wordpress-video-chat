@@ -2,16 +2,16 @@
 /*
 * Plugin Name: wordpress-video-chat
 * Plugin URI: https://wordpress.org/plugins/wpbp-video-chat/
-* Author: Ruddernation Designs
+* Author: RN Designs
 * Author URI: http://profiles.wordpress.org/ruddernation
 * Description: TinyChat full screen video chat for BuddyPress/WordPress,
 This also has YouTube/SoundCloud for all chatters and now has smileys enabled using my embed file.
-* Requires at least: WordPress 3.6.0, BuddyPress 1.8.1
-* Tested up to: WordPress 4.0-beta1 / BuddyPress 2.0.1
-* Version: 1.1.0
+* Requires at least: WordPress 4.0, BuddyPress 1.8.1
+* Tested up to: WordPress 4.0, BuddyPress 2.0.1 
+* Version: 1.1.1
 * License: GPLv3
 * License URI: http://www.gnu.org/licenses/gpl-3.0.html
-* Date: 18th July 2014
+* Date: 05th September 2014
 */
 define('COMPARE_VERSION', '1.0.9');
 
