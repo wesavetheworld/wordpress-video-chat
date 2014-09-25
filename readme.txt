@@ -2,10 +2,10 @@
 
 Contributors: ruddernation
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FFAC7FBEBH6JE
-Tags: video chat, Tinychat, chat, wordpress chat, buddypress chat, wordpress video chat, buddypress video chat
+Tags: video chat, tinychat, chat, wordpress chat, buddypress chat, wordpress video chat, buddypress video chat
 Requires at least: 3.6.0
 Tested up to: 4.0
-Stable tag: 1.1.2
+Stable tag: 1.1.4
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -97,6 +97,9 @@ Also there seemed to be a conflict with another plugin.
 
 = 1.1.0 =
 * Few updates to core.
+
+= 1.1.3 =
+* Added "account" so as all users can now PM each other.
 
 == Social Sites ==
 * Twitter - https://twitter.com/RUDD3RN4T10N
