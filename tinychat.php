@@ -8,12 +8,12 @@
 This also has YouTube/SoundCloud for all chatters and now has smileys enabled using my embed file.
 * Requires at least: WordPress 4.0, BuddyPress 1.8.1
 * Tested up to: WordPress 4.0, BuddyPress 2.0.1 
-* Version: 1.1.4
+* Version: 1.1.5
 * License: GPLv3
 * License URI: http://www.gnu.org/licenses/gpl-3.0.html
-* Date: 25th September 2014
+* Date: 27th September 2014
 */
-define('COMPARE_VERSION', '1.1.4');
+define('COMPARE_VERSION', '1.1.5');
 register_activation_hook(__FILE__, 'wordpress_chat_install');
 function wordpress_chat_install() {
 
@@ -63,7 +63,7 @@ $user_ID = get_current_user_id();?>
 	<script type='text/javascript'>
 var embed;
 
-embed = tinychat ({room: "<?php echo htmlspecialchars($_SERVER['SERVER_NAME']) ?>", <?php {echo ' account: "'.sprintf($user_ID).'",';?> langdefault: "en", desktop: "true", youtube: "all"});
+embed = tinychat ({room: "<?php echo htmlspecialchars($_SERVER['SERVER_NAME'],ENT_QUOTES, 'UTF-8') ?>", <?php {echo ' account: "'.sprintf($user_ID).'",';?> langdefault: "en", desktop: "true", youtube: "all"});
 
 	</script><div id='client'></div></div>
 	<?php
