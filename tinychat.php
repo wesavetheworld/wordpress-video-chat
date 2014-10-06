@@ -8,12 +8,12 @@
 This also has YouTube/SoundCloud for all chatters and now has smileys enabled using my embed file.
 * Requires at least: WordPress 4.0, BuddyPress 1.8.1
 * Tested up to: WordPress 4.0, BuddyPress 2.0.1 
-* Version: 1.1.5
+* Version: 1.1.6
 * License: GPLv3
 * License URI: http://www.gnu.org/licenses/gpl-3.0.html
-* Date: 27th September 2014
+* Date: 06th October 2014
 */
-define('COMPARE_VERSION', '1.1.5');
+define('COMPARE_VERSION', '1.1.6');
 register_activation_hook(__FILE__, 'wordpress_chat_install');
 function wordpress_chat_install() {
 
@@ -51,21 +51,20 @@ function wp_show_wordpress_chat_page($content = '') {
 	}
 	return $content;
 }
+//This is used to disable to chat to guests.
 function wp_show_wordpress_chat() {
-
-	if(!get_option('wordpress_chat_enabled', 0)) {
-}
-$user_ID = get_current_user_id();?>
+	$current_user = wp_get_current_user();
+	if($current_user->ID == 0) {
+		echo('<b>You are not logged in, please login before trying to chat!</b>' );
+		return;
+	}?>
 	<style>#chat{height:98%;width:100%;left:0px; right:0px; bottom:0px; position:absolute;}</style>
 <div id="chat">
-<script src="https://www.ruddernation.com/info/js/slag.js"></script>
-
+<script src="https://www.ruddernation.com/info/js/slagmodified.js"></script>
 	<script type='text/javascript'>
 var embed;
-
 embed = tinychat ({room: "<?php echo htmlspecialchars($_SERVER['SERVER_NAME'],ENT_QUOTES, 'UTF-8') ?>", <?php {echo ' account: "'.sprintf($user_ID).'",';?> langdefault: "en", desktop: "true", youtube: "all"});
-
-	</script><div id='client'></div></div>
+	</script><div id='Ruddernation'></div></div>
 	<?php
 }}
 ?>
