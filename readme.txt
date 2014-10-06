@@ -5,7 +5,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: video chat, tinychat, chat, wordpress chat, buddypress chat, wordpress video chat, buddypress video chat
 Requires at least: 3.6.0
 Tested up to: 4.0
-Stable tag: 1.1.5
+Stable tag: 1.1.6
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -101,7 +101,9 @@ Also there seemed to be a conflict with another plugin.
 = 1.1.3 =
 * Added "account" so as all users can now PM each other.
 
+= 1.1.6 =
+* Now stopped guest access to rooms, Only logged in members may chat.
+
 == Social Sites ==
-* Twitter - https://twitter.com/RUDD3RN4T10N
 * Facebook - https://www.facebook.com/ruddernationdotcom
 * Github - https://github.com/ruddernation
