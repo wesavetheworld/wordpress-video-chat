@@ -7,10 +7,10 @@
 * Description: TinyChat full screen video chat for WordPress/BuddyPress, This also has YouTube/SoundCloud for all chatters and now has smileys enabled using my embed file.
 * Requires at least: WordPress 4.0, BuddyPress 1.8.1
 * Tested up to: WordPress 4.0, BuddyPress 2.1.1 
-* Version: 1.1.8
+* Version: 1.1.9
 * License: GPLv3
 * License URI: http://www.gnu.org/licenses/gpl-3.0.html
-* Date: 21st October 2014
+* Date: 13th November 2014
 */
 define('COMPARE_VERSION', '1.1.8');
 register_activation_hook(__FILE__, 'wordpress_chat_install');
@@ -56,7 +56,7 @@ function wp_show_wordpress_chat() {
 		echo('<b>You are not logged in, please login before trying to chat!</b>' );
 		return;
 	}?>
-	<style>#chat{height:98%;width:100%;left:0px; right:0px; bottom:0px; position:absolute;}</style>
+	<style>#chat{height:98%;width:100%;left:0px; right:0px; bottom:0px; position:fixed;}</style>
 <div id="chat">
 <script  data-cfasync="false" src="https://www.ruddernation.com/info/js/slagmodified.js"></script>
 	<script  data-cfasync="false" type='text/javascript'>
