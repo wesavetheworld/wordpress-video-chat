@@ -5,7 +5,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: video chat, tinychat, chat, wordpress chat, buddypress chat, wordpress video chat, buddypress video chat
 Requires at least: 3.6.0
 Tested up to: 4.0
-Stable tag: 1.1.8
+Stable tag: 1.1.9
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -23,6 +23,10 @@ This will automatically create the page and install the short code with link *do
 Simply use shortcode [tinychat_page] in a page, you may need to remove footer as some will show in front of the chat screen.
 This also uses my modified Tinychat embed file, This get's updated externally so you'll never need to update it.
 If you want to use Tinychats original then you'll have to change the embed file url to http://tinychat.com/embed/chat.js.
+Some themes may have issues with keyboard shortcuts, Especially for those that use jetpack, You'll have to disable the admin navbar from your frontend by adding 
+// Remove Admin Bar Front End
+add_filter('show_admin_bar', '__return_false');
+to your themes functions.php file.
 
 == Screenshots ==
 
@@ -50,6 +54,10 @@ If anyone else requires another feature or has an idea for me to implement, Then
 
 * Q. How do I add it to my blog/website?
 * A. Just go to the backend and on appearance select menus, From there you can add your page, It'll be *chatroom* by default.
+
+* Q. I'm having issues with my wordpress keyboard shortcuts affectiong my chat, It's not allowing me to use certain letters.
+* A. The fix for this is to disable the Admin navbar on your frontend only, to do this add * // Remove Admin Bar Front End
+add_filter('show_admin_bar', '__return_false'); * to you funtions.php file in your themes folder.
 
 == Changelog ==
 
