@@ -4,8 +4,8 @@ Contributors: ruddernation
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FFAC7FBEBH6JE
 Tags: video chat, tinychat, chat, wordpress chat, buddypress chat, wordpress video chat, buddypress video chat
 Requires at least: 3.6.0
-Tested up to: 4.0
-Stable tag: 1.1.9
+Tested up to: 4.1
+Stable tag: 1.2.5
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -55,7 +55,7 @@ If anyone else requires another feature or has an idea for me to implement, Then
 * Q. How do I add it to my blog/website?
 * A. Just go to the backend and on appearance select menus, From there you can add your page, It'll be *chatroom* by default.
 
-* Q. I'm having issues with my wordpress keyboard shortcuts affectiong my chat, It's not allowing me to use certain letters.
+* Q. I'm having issues with my wordpress keyboard shortcuts affecting my chat, It's not allowing me to use certain letters.
 * A. The fix for this is to disable the Admin navbar on your frontend only, to do this add * // Remove Admin Bar Front End
 add_filter('show_admin_bar', '__return_false'); * to you funtions.php file in your themes folder.
 
