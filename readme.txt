@@ -5,7 +5,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: video chat, tinychat, chat, wordpress chat, buddypress chat, wordpress video chat, buddypress video chat
 Requires at least: 3.6.0
 Tested up to: 4.1
-Stable tag: 1.2.7
+Stable tag: 1.3.4
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -47,7 +47,13 @@ If anyone else requires another feature or has an idea for me to implement, Then
 == Frequently Asked Questions ==
 
 * Q. Can I use this if I'm not logged in?
-* A. Yes!.
+* A. No!, I removed that feature due to a few requests, You can simply allow guest access by removing. * }
+function wp_show_wordpress_chat() {
+	$current_user = wp_get_current_user();
+	if($current_user->ID == 0) {
+		echo('<b>You are not logged in, please login before trying to chat!</b>' );
+		return;
+	} * on line 53
 
 * Q. The chat is not loading for me.
 * A. Check to see if you have the Adobe flash player installed (http://helpx.adobe.com/flash-player.html) and JavaScript enabled in your browser.
@@ -108,6 +114,15 @@ Also there seemed to be a conflict with another plugin.
 = 1.1.8 =
 * I've had to update the core due to rocketplayer script being unable to work, SoI've disabled rocketscript if your sites use this by default.
 
+= 1.2.9 =
+* Fixed the account issue, It'll now get user ID (Number) so you can private message each other in chat.
+
+= 1.3.2 =
+* It will now grab the correct username, This will also display a profile in your name on TinyChat.
+
 == Social Sites ==
+* Facebook - https://www.facebook.com/rndtc
+* Twitter - https://twitter.com/R_N_Designs
 * Github - https://github.com/ruddernation
 * WordPress - https://profiles.wordpress.org/ruddernation
+* Skype - ruddernation.designs
