@@ -121,8 +121,17 @@ Also there seemed to be a conflict with another plugin.
 * It will now grab the correct username, This will also display a profile in your name on TinyChat.
 
 == Social Sites ==
+
+* Website - https://www.ruddernation.com
+
+* Room Spy - https://www.tinychat-spy.com
+
 * Facebook - https://www.facebook.com/rndtc
+
 * Twitter - https://twitter.com/R_N_Designs
+
 * Github - https://github.com/ruddernation
+
 * WordPress - https://profiles.wordpress.org/ruddernation
+
 * Skype - ruddernation.designs
