@@ -10,7 +10,7 @@
 * Version: 1.3.9.2
 * License: GPLv3
 * License URI: http://www.gnu.org/licenses/gpl-3.0.html
-* Date: 22nd May 2015
+* Date: 03rd June 2015
 */
 define('COMPARE_VERSION', '1.3.9.1');
 register_activation_hook(__FILE__, 'wordpress_chat_install');
