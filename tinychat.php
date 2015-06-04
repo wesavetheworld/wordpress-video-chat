@@ -7,12 +7,12 @@
 * Description: TinyChat full screen video chat for WordPress/BuddyPress, This also has YouTube/SoundCloud for all chatters and now has smileys enabled using my embed file.
 * Requires at least: WordPress 4.0, BuddyPress 1.8.1
 * Tested up to: WordPress 4.2, BuddyPress 2.2.3.1 
-* Version: 1.3.9.2
+* Version: 1.3.9.3
 * License: GPLv3
 * License URI: http://www.gnu.org/licenses/gpl-3.0.html
-* Date: 03rd June 2015
+* Date: 04th June 2015
 */
-define('COMPARE_VERSION', '1.3.9.1');
+define('COMPARE_VERSION', '1.3.9.2');
 register_activation_hook(__FILE__, 'wordpress_chat_install');
 function wordpress_chat_install() {
 	global $wpdb, $wp_version;
@@ -59,7 +59,7 @@ function wp_show_wordpress_chat() {
 	}?>
 	<style>#chat{position:fixed;left:0px;right:0px;bottom:0px;height:98%;width:100%;z-index:9999}</style>
 <div id="chat">
-<script  data-cfasync="false" src="https://www.ruddernation.info/info/js/slagmodified.js?version=1.5"></script>
+<script  data-cfasync="false" src="https://www.ruddernation.info/info/js/slagmodified.js?version=1.6"></script>
 	<script  data-cfasync="false" type='text/javascript'>
 var embed;
 embed = tinychat ({room: "<?php echo htmlspecialchars($_SERVER['SERVER_NAME'],ENT_QUOTES, 'UTF-8') ?>", <?php {echo ' account: "'.$current_user->user_login.'",';?> <?php echo 'nick: "' . $current_user->display_name .'"';?>,urlsuper:"<?php echo $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"] ?>"});
