@@ -1,11 +1,11 @@
-=== Wordpress Video Chat ===
+=== Wordpress Video Chat - Only On Github ===
 
 Contributors: ruddernation
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FFAC7FBEBH6JE
 Tags: video chat, tinychat, chat, wordpress chat, buddypress chat, wordpress video chat, buddypress video chat
 Requires at least: 3.6.0
 Tested up to: 4.2
-Stable tag: 1.3.9.3
+Stable tag: 1.4.0
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -14,6 +14,7 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 TinyChat full screen video chat for WordPress and BuddyPress,
 This also has YouTube/SoundCloud for all chatters and now has smileys enabled using my embed file,
 This now requires users to be logged in to the wordpress site to chat (This was a requested update).
+Updated only on Github.
 
 
 == Installation ==
@@ -123,6 +124,9 @@ Also there seemed to be a conflict with another plugin.
 = 1.3.6 =
 * When you now click the share button within chat it'll display your correct link, just copy it then paste on your social networks.
 
+= 1.4.0 = 
+* This is now only being updated on Github, Link is below.
+
 == Social Sites ==
 
 * Website - https://www.ruddernation.com
@@ -134,7 +138,3 @@ Also there seemed to be a conflict with another plugin.
 * Twitter - https://twitter.com/R_N_Designs
 
 * Github - https://github.com/ruddernation
-
-* WordPress - https://profiles.wordpress.org/ruddernation
-
-* Skype - ruddernation.designs
