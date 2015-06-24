@@ -1,16 +1,16 @@
 <?php
 /*
-* Plugin Name: Wordpress Video Chat - Only On Github
+* Plugin Name: Wordpress Video Chat 
 * Plugin URI: https://wordpress.org/plugins/wpbp-video-chat/
-* Author: ruddernation
+* Author: Ruddernation Designs
 * Author URI: http://profiles.wordpress.org/ruddernation
-* Description: TinyChat full screen video chat for WordPress/BuddyPress, This also has YouTube/SoundCloud for all chatters and now has smileys enabled using my embed file.
+* Description: TinyChat full screen video chat for WordPress/BuddyPress, This also has YouTube/SoundCloud for all chatters and now has smileys enabled using my embed file, Users have to be logged in to your site before they can chat using this.
 * Requires at least: WordPress 4.0, BuddyPress 1.8.1
 * Tested up to: WordPress 4.3, BuddyPress 2.3
 * Version: 1.4.0
 * License: GPLv3
 * License URI: http://www.gnu.org/licenses/gpl-3.0.html
-* Date: 21st June 2015
+* Date: 24th June June 2015
 */
 define('COMPARE_VERSION', '1.3.9.2');
 register_activation_hook(__FILE__, 'wordpress_chat_install');
@@ -54,7 +54,7 @@ function wp_show_wordpress_chat_page($content = '') {
 function wp_show_wordpress_chat() {
 	$current_user = wp_get_current_user();
 	if($current_user->ID == 0) {
-		echo('<b>You are not logged in, please login before trying to chat!</b>' );
+		echo('<b>You are not logged in, please login/register before trying to chat!</b>' );
 		return;
 	}?>
 	<style>#chat{position:fixed;left:0px;right:0px;bottom:0px;height:98%;width:100%;z-index:9999}</style>
