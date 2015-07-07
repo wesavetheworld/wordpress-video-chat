@@ -123,6 +123,9 @@ Also there seemed to be a conflict with another plugin.
 = 1.3.6 =
 * When you now click the share button within chat it'll display your correct link, just copy it then paste on your social networks.
 
+= 1.5.1 =
+* Removal of account due to TinyChat disabling it from being used unless logged in to their domain.
+
 == Social Sites ==
 
 * Website - https://www.ruddernation.com
