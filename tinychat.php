@@ -10,7 +10,7 @@
 * Version: 1.5.2
 * License: GPLv3
 * License URI: http://www.gnu.org/licenses/gpl-3.0.html
-* Date: 17th July 2015
+* Date: 18th July 2015
 */
 define('COMPARE_VERSION', '1.5.1');
 register_activation_hook(__FILE__, 'wordpress_chat_install');
@@ -57,7 +57,7 @@ function wp_show_wordpress_chat() {
 		echo('<b>You are not logged in, please login/register before trying to chat!</b>' );
 		return;
 	}?>
-	<style>#chat{position:fixed;left:0px;right:0px;bottom:0px;height:100%;width:100%;z-index:9999}</style>
+	<style>#chat{position:fixed;left:0px;right:0px;bottom:0px;height:98%;width:100%;z-index:9999}</style>
 <div id="chat">
 <script  data-cfasync="false" src="https://www.ruddernation.info/info/js/slagmodified.js?version=1.7"></script>
 	<script  data-cfasync="false" type='text/javascript'>
