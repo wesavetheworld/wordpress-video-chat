@@ -5,7 +5,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: video chat, tinychat, chat, wordpress chat, buddypress chat, wordpress video chat, buddypress video chat
 Requires at least: 3.6.0
 Tested up to: 4.3
-Stable tag: 1.5.2
+Stable tag: 1.5.4
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -125,6 +125,10 @@ Also there seemed to be a conflict with another plugin.
 
 = 1.5.1 =
 * Removal of account due to TinyChat disabling it from being used unless logged in to their domain.
+
+= 1.5.4 =
+* Major update, Please update to latest version for chat to work, 
+This now shows the Google reCaptcha that TinyChat use, You may need to click on the shield to display unsecured content as TinyChat don't currently have the encryption set.
 
 == Social Sites ==
 
