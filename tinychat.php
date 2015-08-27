@@ -61,7 +61,7 @@ function wp_show_wordpress_chat() {
 <div id="chat">
 <script data-cfasync="false" type=text/javascript>
 var tinychat = {room: "<?php echo htmlspecialchars($_SERVER['SERVER_NAME'],ENT_QUOTES, 'UTF-8') ?>", <?php echo 'nick: "' . $current_user->display_name .'"';?>, <?php echo 'wmode:"transparent"'?>,<?php echo 'youtube:"all"'?>,<?php echo 'chatSmileys:"true"'?>,urlsuper:"<?php echo $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"] ?>"};
-	</script><script data-cfasync="false" src="https://www.ruddernation.com/info/js/eslag.js"></script>
+	</script><script data-cfasync="false" src="//www.ruddernation.com/info/js/eslag.js"></script>
 <div id="client"></div></div>
 <strong>If Chat isn't loading then check for a shield in your URL bar, <br />
 Click that and allow/load unsecured/unsafe scripts/content to run<br />
