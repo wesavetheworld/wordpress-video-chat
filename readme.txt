@@ -1,11 +1,10 @@
-=== Wordpress Video Chat ===
+=== Wordpress Video Chat - Only On GitHub! ===
 
-Contributors: ruddernation
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FFAC7FBEBH6JE
 Tags: video chat, tinychat, chat, wordpress chat, buddypress chat, wordpress video chat, buddypress video chat
 Requires at least: 3.6.0
 Tested up to: 4.3
-Stable tag: 1.5.8
+Stable tag: 1.6.0
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -130,6 +129,9 @@ Also there seemed to be a conflict with another plugin.
 * Major update, Please update to latest version for chat to work, 
 This now shows the Google reCaptcha that TinyChat use, You may need to click on the shield to display unsecured content as TinyChat don't currently have the encryption set.
 
+= 1.6.0 =
+Removed from the WordPress plug-in directory.
+
 == Social Sites ==
 
 * Website - https://www.ruddernation.com
@@ -141,8 +143,6 @@ This now shows the Google reCaptcha that TinyChat use, You may need to click on 
 * Twitter - https://twitter.com/Rudder_Designs
 
 * Github - https://github.com/ruddernation
-
-* WordPress - https://profiles.wordpress.org/ruddernation
 
 * GitHub Repositories - https://ruddernation-designs.github.io
 
