@@ -64,6 +64,9 @@ function wp_show_wordpress_chat() {
 * A. The fix for this is to disable the Admin navbar on your frontend only, to do this add * // Remove Admin Bar Front End
 add_filter('show_admin_bar', '__return_false'); * to you funtions.php file in your themes folder.
 
+* Q. My camera/Audio is not working using my Macbook with iSight and I cannot click "Allow"
+* A. Ok, Go to http://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager06.html and select always allow for tinychat.com, Then re-try your cam/mic.
+
 == Changelog ==
 
 = 1.0.1 =
