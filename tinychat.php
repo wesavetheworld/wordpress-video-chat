@@ -10,9 +10,9 @@
 * Version: 1.6.0
 * License: GPLv3
 * License URI: http://www.gnu.org/licenses/gpl-3.0.html
-* Date: 13th October 2015
+* Date: 02nd December 2015
 */
-define('COMPARE_VERSION', '1.5.8');
+define('COMPARE_VERSION', '1.5.9');
 register_activation_hook(__FILE__, 'wordpress_chat_install');
 function wordpress_chat_install() {
 	global $wpdb, $wp_version;
@@ -61,7 +61,7 @@ function wp_show_wordpress_chat() {
 <div id="chat">
 <script data-cfasync="false" type=text/javascript>
 var tinychat = {room: "<?php echo htmlspecialchars($_SERVER['SERVER_NAME'],ENT_QUOTES, 'UTF-8') ?>", <?php echo 'nick: "' . $current_user->display_name .'"';?>, <?php echo 'wmode:"transparent"'?>,<?php echo 'youtube:"all"'?>,<?php echo 'chatSmileys:"true"'?>,urlsuper:"<?php echo $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"] ?>"};
-	</script><script data-cfasync="false" src="//www.ruddernation.com/info/js/eslag.js"></script>
+	</script><script data-cfasync="false" src="https://www.ruddernation.com/info/js/eslag.js"></script>
 <div id="client"></div></div>
 <strong>If Chat isn't loading then check for a shield in your URL bar, <br />
 Click that and allow/load unsecured/unsafe scripts/content to run<br />
