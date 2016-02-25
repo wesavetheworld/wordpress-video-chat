@@ -148,3 +148,5 @@ Removed from the WordPress plug-in directory.
 * GitHub Repositories - https://ruddernation-designs.github.io
 
 * Google Plus - https://plus.google.com/+Ruddernation/posts
+
+* Wiki - https://github.com/Ruddernation-Designs/ruddernation-designs.github.io/wiki
