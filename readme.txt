@@ -11,7 +11,6 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 == Description ==
 
 TinyChat full screen video chat for WordPress and BuddyPress,
-This also has YouTube/SoundCloud for all chatters and now has smileys enabled using my embed file,
 This now requires users to be logged in to the wordpress site to chat (This was a requested update).
 
 
