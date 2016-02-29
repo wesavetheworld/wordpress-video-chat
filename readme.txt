@@ -25,6 +25,9 @@ Some themes may have issues with keyboard shortcuts, Especially for those that u
 // Remove Admin Bar Front End
 add_filter('show_admin_bar', '__return_false');
 to your themes functions.php file.
+<br/>
+EDIT: I've now removed YouTube from all my software, YouTube videos will still work if you're a moderator,
+If you wish to add youtube so as all users can play videos then add `youtube:"all"` to your scripts.
 
 == Screenshots ==
 
