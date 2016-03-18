@@ -7,12 +7,12 @@
 * Description: TinyChat full screen video chat for WordPress/BuddyPress, This also has YouTube/SoundCloud for all chatters and now has smileys enabled using my embed file, Users have to be logged in to your site before they can chat using this.
 * Requires at least: WordPress 4.0, BuddyPress 2.0
 * Tested up to: WordPress 4.3, BuddyPress 2.3
-* Version: 1.6.3
+* Version: 1.6.4
 * License: GPLv3
 * License URI: http://www.gnu.org/licenses/gpl-3.0.html
-* Date: 29th February 2016
+* Date: 18th March 2016
 */
-define('COMPARE_VERSION', '1.6.2');
+define('COMPARE_VERSION', '1.6.3');
 register_activation_hook(__FILE__, 'wordpress_chat_install');
 function wordpress_chat_install() {
 	global $wpdb, $wp_version;
@@ -54,15 +54,21 @@ function wp_show_wordpress_chat_page($content = '') {
 function wp_show_wordpress_chat() {
 	$current_user = wp_get_current_user();
 	if($current_user->ID == 0) {
-		echo('<b>You are not logged in, please login/register before trying to use the chat room!</b>' );
-		return;
-	}?>
-	<style>#chat{position:fixed;left:0px;right:0px;bottom:0px;height:98%;width:100%;z-index:9999}</style>
-<div id="chat">
-<script type=text/javascript>
-var tinychat = {room: "<?php echo $_SERVER['SERVER_NAME'] ?>", <?php echo 'nick: "' . $current_user->display_name .'"';?>, <?php echo 'wmode:"transparent"'?>,<?php echo 'desktop:"true"'?>,<?php echo 'prohash:"I have added this to stop errors with the Fx feature"'?>,<?php echo 'chatSmileys:"true"'?>,<?php echo 'langdefault:"en"'?>,urlsuper:"<?php echo $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"] ?>"};
-	</script><script src="https://www.ruddernation.com/info/js/eslag.js"></script>
-<div id="client"></div></div>
-	<?php
-}
-?>
+		echo ('<strong>Please login/register before trying to use the chat room!</strong>' );
+		return; 
+} else {
+		echo '<style>#chat{position:fixed;left:0px;right:0px;bottom:0px;height:98%;width:100%;z-index:9999}</style><div id="chat">
+<script type="text/javascript">
+var tinychat = ({
+		room: "'.filter_input(INPUT_SERVER, 'SERVER_NAME').'", 
+		prohash: "'.$prohash.'",
+		nick: "'.$current_user->display_name.'",
+		wmode:"transparent",
+		chatSmileys:"true", 
+		youtube:"all",
+		urlsuper: "'.filter_input(INPUT_SERVER, 'HTTP_HOST'). filter_input(INPUT_SERVER, 'REQUEST_URI').'", 
+		desktop:"true",
+		langdefault:"en"});
+		</script>
+<script src="https://www.ruddernation.com/info/js/eslag.js"></script>
+<div id="client"></div></div>';}}?>
