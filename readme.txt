@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: video chat, tinychat, chat, wordpress chat, buddypress chat, wordpress video chat, buddypress video chat
 Requires at least: 3.6.0
 Tested up to: 4.3
-Stable tag: 1.6.3
+Stable tag: 1.6.4
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -25,9 +25,6 @@ Some themes may have issues with keyboard shortcuts, Especially for those that u
 // Remove Admin Bar Front End
 add_filter('show_admin_bar', '__return_false');
 to your themes functions.php file.
-<br/>
-EDIT: I've now removed YouTube from all my software, YouTube videos will still work if you're a moderator,
-If you wish to add youtube so as all users can play videos then add `youtube:"all"` to your scripts.
 
 == Screenshots ==
 
@@ -135,7 +132,10 @@ Also there seemed to be a conflict with another plugin.
 This now shows the Google reCaptcha that TinyChat use, You may need to click on the shield to display unsecured content as TinyChat don't currently have the encryption set.
 
 = 1.6.0 =
-Removed from the WordPress plug-in directory.
+* Removed from the WordPress plug-in directory.
+
+= 1.6.4 =
+* Major update, Rewrote the chat function increasing the security, Re-added YouTube.
 
 == Social Sites ==
 
@@ -150,5 +150,3 @@ Removed from the WordPress plug-in directory.
 * GitHub Repositories - https://ruddernation-designs.github.io
 
 * Google Plus - https://plus.google.com/+Ruddernation/posts
-
-* Wiki - https://github.com/Ruddernation-Designs/ruddernation-designs.github.io/wiki
